@@ -20,9 +20,12 @@
 
 .page-1 .son {
     width: 100%;
+    min-height: 100%;
+    overflow: auto;
     background-image: url(Capture.PNG);
     padding: 100px 0px;
     display: flex;
+
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -352,7 +355,7 @@ section {
 }
 
 
-.motargem .son .qr-box img{
+.motargem .son .qr-box img {
     background-color: #fff;
     padding: 10px;
     width: 100px;
@@ -378,7 +381,7 @@ section {
 }
 
 /* test */
-section{
+section {
     position: fixed;
     top: 0%;
     left: 0%;
