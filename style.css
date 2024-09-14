@@ -358,6 +358,11 @@ section {
     width: 100px;
 }
 
+.motargem .back-btn {
+    background-color: #012938;
+    color: #fff;
+}
+
 @media (min-width:0px) and (max-width:600px) {
     .motargem .son p {
         width: 90%;
