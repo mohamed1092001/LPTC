@@ -256,6 +256,11 @@
     width: 80%;
 }
 
+.page-2 .back-btn {
+    background-color: #85b8b1;
+    color: #fff;
+}
+
 @media (min-width:0px) and (max-width:600px) {
 
     .page-2 .container {
@@ -279,7 +284,21 @@
     }
 }
 
-/* width */
+/* global */
 ::-webkit-scrollbar {
     width: 0px;
+}
+
+section {
+    position: relative;
+}
+
+.back-btn {
+    position: absolute;
+    left: 10%;
+    top: 10%;
+    border-radius: 50%;
+    width: 40px;
+    aspect-ratio: 1/1;
+    cursor: pointer;
 }

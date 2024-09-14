@@ -11,13 +11,13 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Cairo:wght@200..1000&family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Mada:wght@200..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+AR:wght@100..400&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 </head>
 
 <body>
     <section class="page-1">
         <div class="son">
-
-
             <img src="logo.svg" alt="" class="logo">
             <div class="page-content">
                 <div class="video-box">
@@ -45,6 +45,7 @@
         </div>
     </section>
     <section class="page-2">
+        <button class="back-f-p2 back-btn"><i class="fa-solid fa-arrow-left"></i></button>
         <div class="son">
             <img src="logo2.svg" alt="" class="logo">
             <div class="container">
@@ -93,12 +94,19 @@
             </div>
         </div>
     </section>
+    <section class="motargem">
+
+    </section>
 
     <script src="jquery-3.7.1.js"></script>
     <script>
         $(".ar-btn").click(function () {
             $("section").slideUp(800);
             $(".page-2").slideDown(800);
+        })
+        $(".back-f-p2").click(function () {
+            $("section").slideUp(800);
+            $(".page-1").slideDown(800);
         })
     </script>
 </body>
