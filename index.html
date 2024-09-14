@@ -49,53 +49,77 @@
         <div class="son">
             <img src="logo2.svg" alt="" class="logo">
             <div class="container">
-                <button>
+                <button class="motargem-btn">
                     <img src="motargem-moatamd.svg" alt="">
                 </button>
-                <button>
+                <button class="motargem-btn">
                     <img src="motargem-moatamd.svg" alt="">
                 </button>
-                <button>
+                <button class="motargem-btn">
                     <img src="motargem-moatamd.svg" alt="">
                 </button>
-                <button>
+                <button class="motargem-btn">
                     <img src="motargem-moatamd.svg" alt="">
                 </button>
-                <button>
+                <button class="motargem-btn">
                     <img src="motargem-moatamd.svg" alt="">
                 </button>
-                <button>
+                <button class="motargem-btn">
                     <img src="motargem-moatamd.svg" alt="">
                 </button>
-                <button>
+                <button class="motargem-btn">
                     <img src="motargem-moatamd.svg" alt="">
                 </button>
-                <button>
+                <button class="motargem-btn">
                     <img src="motargem-moatamd.svg" alt="">
                 </button>
-                <button>
+                <button class="motargem-btn">
                     <img src="motargem-moatamd.svg" alt="">
                 </button>
-                <button>
+                <button class="motargem-btn">
                     <img src="motargem-moatamd.svg" alt="">
                 </button>
-                <button>
+                <button class="motargem-btn">
                     <img src="motargem-moatamd.svg" alt="">
                 </button>
-                <button>
+                <button class="motargem-btn">
                     <img src="motargem-moatamd.svg" alt="">
                 </button>
-                <button>
+                <button class="motargem-btn">
                     <img src="motargem-moatamd.svg" alt="">
                 </button>
-                <button>
+                <button class="motargem-btn">
                     <img src="motargem-moatamd.svg" alt="">
                 </button>
             </div>
         </div>
     </section>
     <section class="motargem">
+        <button class="back-f-motargem back-btn"><i class="fa-solid fa-arrow-left"></i></button>
+        <div class="son">
+            <img src="motargem-moatamd.svg" class="sup-logo">
+            <p>برنــــــامج المترجم المعتـــمد يهــدف إلى اعتمـــــــــاد المترجمين السعــــــوديين وتصنيفهــــم،
+                ومنحهــــــــم
+                وثيقــــة مترجـــــم معتمد في عددٍ من مجـــالات الترجمة، صادرةً عن هيئة الأدب والنــــــــــــشر
+                والتــــــــــرجمة
+                فــــي المـــملكــــــــة العربية السعوديـــــــــة؛ لضمــــان توفــــر المهـــــــــارات والمستــــوى
+                المطلــــــــــوب
+                لممارسة مهنة الترجمــــــة باحترافيـــــــــــــة عاليـــــــــــــة.
+            </p>
+            <img src="mid-motargem-page.svg" class="mid-img">
+            <div class="vid-con">
+                <video src="motargem.mp4" controls></video>
+            </div>
 
+            <div class="qr-box">
+                <p>
+                    امسح الباركود وأعرف
+                    <br>
+                    أكثـــــر عـــن المبــادرة
+                </p>
+                <img src="motargem-qr.svg" alt="">
+            </div>
+        </div>
     </section>
 
     <script src="jquery-3.7.1.js"></script>
@@ -107,6 +131,14 @@
         $(".back-f-p2").click(function () {
             $("section").slideUp(800);
             $(".page-1").slideDown(800);
+        })
+        $(".motargem-btn").click(function () {
+            $("section").slideUp(800);
+            $(".motargem").slideDown(800);
+        })
+        $(".back-f-motargem").click(function () {
+            $("section").slideUp(800);
+            $(".page-2").slideDown(800);
         })
     </script>
 </body>
