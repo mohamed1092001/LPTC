@@ -17,20 +17,20 @@
     height: 100vh;
     overflow: auto;
     position: relative;
+    background-image: url(Capture.PNG);
+    /* background-size: cover; */
 }
 
 .page-1 .son {
     width: 100%;
     min-height: 100%;
     overflow: auto;
-    background-image: url(Capture.PNG);
     padding: 100px 0px;
     display: flex;
-
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 80px;
+    gap: 20px;
 }
 
 .logo {
@@ -57,33 +57,9 @@
     position: relative;
 }
 
-.page-1 .page-content .img-box .float-img {
-    position: absolute;
-    bottom: 0%;
-    width: 37%;
-}
 
-.page-1 .page-content .img-box .img-left {
-    left: 0%;
-}
-
-.page-1 .page-content .img-box .img-right {
-    right: 0%;
-}
-
-.page-1 .page-content .middle-img-con {
-    width: 65%;
-    height: 100%;
-    margin: auto;
-    position: relative;
-}
-
-.page-1 .page-content .middle-img-con img {
+.page-1 .page-content .img-box img {
     width: 100%;
-    height: 100%;
-    object-fit: contain;
-    object-position: bottom;
-
 }
 
 .page-1 .page-content .title {
@@ -196,18 +172,20 @@
     }
 }
 
+
 .page-1 .video-box {
     position: relative;
-    aspect-ratio: 1/.6;
+    aspect-ratio: 1/.58;
     overflow: hidden;
 }
 
 .page-1 .video-box video {
-    width: 102%;
+    width: 110%;
     position: absolute;
-    top: -60%;
+    top: -77%;
     left: 50%;
     transform: translateX(-50%);
+
 }
 
 .page-2 {
@@ -302,22 +280,27 @@ section {
     left: 10%;
     top: 10%;
     border-radius: 50%;
-    width: 40px;
+    width: 60px;
     aspect-ratio: 1/1;
     cursor: pointer;
+    color: #fff;
 }
 
-/* motargem */
+.back-btn i {
+    font-size: 20px;
+}
 
-.motargem {
+/* details-page */
+
+.details-page {
     width: 100%;
     height: 100vh;
     overflow: auto;
     display: none;
+    text-align: center;
 }
 
-.motargem .son {
-    background-color: #85b8b1;
+.details-page .son {
     width: 100%;
     overflow: auto;
     display: flex;
@@ -329,24 +312,29 @@ section {
     min-height: 100%;
 }
 
-.motargem .son p {
-    width: 80%;
+.details-page .sup-logo {
+    width: 200px;
 }
 
-.motargem .son .mid-img {
+.details-page .son p {
+    width: 80%;
+    color: #fff;
+}
+
+.details-page .son .mid-img {
     width: 70%;
     margin-left: auto;
 }
 
-.motargem .son .vid-con {
+.details-page .son .vid-con {
     width: 70%;
 }
 
-.motargem .son .vid-con video {
+.details-page .son .vid-con video {
     width: 100%;
 }
 
-.motargem .son .qr-box {
+.details-page .son .qr-box {
     width: 80%;
     border-top: solid 2px #fff;
     padding: 20px 0px;
@@ -355,11 +343,19 @@ section {
     color: #fff;
 }
 
+.details-page .son .qr-box p {
+    width: fit-content;
+}
 
-.motargem .son .qr-box img {
+.details-page .son .qr-box img {
     background-color: #fff;
     padding: 10px;
     width: 100px;
+}
+
+
+.motargem .son {
+    background-color: #85b8b1;
 }
 
 .motargem .back-btn {
@@ -367,16 +363,95 @@ section {
     color: #fff;
 }
 
+.moltaka {
+    background: #012938;
+}
+
+.moltaka .hash {
+    color: #85B8B1 !important;
+}
+
+.moltaka .back-btn {
+    background: #85B8B1;
+}
+
+.moltaka .son .mid-img {
+    width: 300px;
+}
+
+.mobadra {
+    background: #85B8B1;
+}
+
+.mobadra .back-btn {
+    background: #012938;
+}
+
+.sec-title {
+    color: #012938;
+    font-size: clamp(1.25rem, 1.5vw + 0.75rem, 2.5rem);
+}
+
+.goals-box {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+}
+
+.goals-box .goal {
+    border-top: solid 2px #fff;
+    width: 50%;
+    direction: rtl;
+    text-align: right;
+    
+}
+
+@media (min-width:0px) and (max-width:700px){
+    .goals-box{
+        gap: 40px;
+    }
+    .goals-box .goal{
+        width: 100%;
+        padding: 0% !important;
+    }
+
+}
+
+.goals-box .goal:nth-child(1){
+    padding-left: 4vw;
+}
+
+.goals-box .goal .num {
+    width: 50px;
+    aspect-ratio: 1/1;
+    border: solid 2px #fff;
+    transform: translate(-50px, -50%);
+    background-color: #85B8B1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.goals-box .goal p{
+    width: 100%;
+}
+
+.mobadra .mid-img{
+    margin-right: auto;
+    margin-left: 0px !important;
+}
+
 @media (min-width:0px) and (max-width:600px) {
-    .motargem .son p {
+    .details-page .son p {
+        width: 90%;
+        text-align: center;
+    }
+
+    .details-page .son .vid-con {
         width: 90%;
     }
 
-    .motargem .son .vid-con {
-        width: 90%;
-    }
-
-    .motargem .son .mid-img {
+    .details-page .son .mid-img {
         width: 90%;
     }
 }
