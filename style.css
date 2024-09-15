@@ -314,6 +314,8 @@ section {
 
 .details-page .sup-logo {
     width: 200px;
+    aspect-ratio: 1 / 0.7;
+    object-fit: cover;
 }
 
 .details-page .son p {
@@ -455,16 +457,16 @@ section {
     margin-left: 0px !important;
 }
 
-.korsy{
+.korsy {
     background: #85B8B1;
 }
 
-.korsy .back-btn{
+.korsy .back-btn {
     background: #012938;
 }
 
-.korsy .son .mid-img{
-        width: 300px;
+.korsy .son .mid-img {
+    width: 300px;
 }
 
 @media (min-width:0px) and (max-width:600px) {
