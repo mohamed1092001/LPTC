@@ -503,6 +503,17 @@ section {
 .trainning1 .back-btn{
     background: #E1912E;
 }
+.quality{
+    background: #780A47;
+}
+
+.quality .son{
+    padding-bottom: 0%;
+}
+
+.quality .back-btn{
+    background: #E1912E;
+}
 
 .trainning1 .mid-img{
     margin-left: 0% !important;

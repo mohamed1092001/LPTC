@@ -23,9 +23,7 @@
                 <div class="video-box">
                     <video src="vid.mp4" autoplay muted loop></video>
                 </div>
-                <!-- <div class="img-box">
-                    <img src="welcome.gif" alt="">
-                </div> -->
+
                 <div class="text-box">
                     <p class="title">
                         قطاع الترجمة
@@ -73,7 +71,7 @@
                 <button class="trainning1-btn">
                     <img src="trainning (1).png" style="width: 100%;">
                 </button>
-                <button class="motargem-btn">
+                <button class="quality-btn">
                     <img src="quality.svg" alt="">
                 </button>
                 <button class="motargem-btn">
@@ -458,6 +456,63 @@
 
         </div>
     </section>
+    <!-- quality -->
+    <section class="quality details-page">
+        <button class="back-f-details back-btn"><i class="fa-solid fa-arrow-left"></i></button>
+        <div class="son">
+            <img src="quality.svg" class="sup-logo">
+            <p>
+                تهدف المبادرة إلى رفع جودة مخرجات قطاع الترجمة التجارية وتنميــــــــــة مهـــــــارات أصحاب ومديري
+                مكاتب الترجمة، عبر
+                تقديم فيديوهات تدريبية وتطويريــــــة من خلال المنصة، والتي تعمل على تزويدهم بالخبرات و إمدادهم
+                بالمهارات
+                اللازمـــــــــــــــة لرفع جودة مخرجات مكاتب الترجمة التجارية.
+            </p>
+
+            <h2 class="sec-title" style="color: #E1912E;">
+                الفيديوهات التدريبية
+            </h2>
+
+            <div class="goals-box">
+                <div class="goal">
+                    <div class="num">01</div>
+                    <p>
+                        إدارة جودة مخرجات الترجمة
+                    </p>
+
+                </div>
+                <div class="goal">
+                    <div class="num">02</div>
+                    <p>
+                        تطوير أعمال الترجمة </p>
+                </div>
+            </div>
+            <div class="goals-box">
+                <div class="goal" style="flex-grow: 1;">
+                    <div class="num">03</div>
+                    <p>
+                        الأدوات والتقنيات في مجال الترجمة التجارية
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="vid-con">
+                <video src="quality.mp4" controls></video>
+            </div>
+            
+            <div class="qr-box">
+                <p>
+                    امسح الباركود وأعرف
+                    <br>
+                    أكثـــــر عـــن المبــادرة
+                </p>
+                <img src="quality-qr.png" alt="">
+            </div>
+
+
+        </div>
+    </section>
 
     <script src="jquery-3.7.1.js"></script>
     <script>
@@ -499,6 +554,10 @@
         $(".trainning1-btn").click(function () {
             $("section").slideUp(800);
             $(".trainning1").slideDown(800);
+        })
+        $(".quality-btn").click(function () {
+            $("section").slideUp(800);
+            $(".quality").slideDown(800);
         })
 
         // ##########
