@@ -68,11 +68,11 @@
                     <img src="korsy.svg" alt="">
                 </button>
                 <button class="marsad-btn">
-                    <img src="marsad.png" style="width: 100%;">
+                    <img src="marsad.png" style="width: 90%;">
                 </button>
-                <!-- <button class="motargem-btn">
-                    <img src="trainning.svg" alt="">
-                </button> -->
+                <button class="trainning1-btn">
+                    <img src="trainning (1).png" style="width: 100%;">
+                </button>
                 <button class="motargem-btn">
                     <img src="quality.svg" alt="">
                 </button>
@@ -80,7 +80,7 @@
                     <img src="ershaad.svg" alt="">
                 </button>
                 <button class="motargem-btn">
-                    <img src="trainning2.svg" alt="">
+                    <img src="trainning (2).png" style="width: 100%;">
                 </button>
 
             </div>
@@ -330,7 +330,7 @@
     <section class="marsad details-page">
         <button class="back-f-details back-btn"><i class="fa-solid fa-arrow-left"></i></button>
         <div class="son">
-            <img src="marsad.png" class="sup-logo">
+            <img src="marsad.png" class="sup-logo" style="aspect-ratio: auto;">
             <p>
                 هو مبادرة تم إطلاقها تحت مظلة المنظمة العربية للتربية والثقافة والعلوم وبدعم من هيئة الأدب والنشر
                 والترجمة، إلى تأسيس
@@ -383,8 +383,6 @@
                 </div>
             </div>
 
-
-
             <div class="qr-box">
                 <p>
                     امسح الباركود وأعرف
@@ -395,6 +393,69 @@
             </div>
 
             <img src="marsad-img.png" class="mid-img">
+        </div>
+    </section>
+
+    <!-- trainning1 -->
+    <section class="trainning1 details-page">
+        <button class="back-f-details back-btn"><i class="fa-solid fa-arrow-left"></i></button>
+        <div class="son">
+            <img src="trainning.png" class="sup-logo">
+            <p>
+                تتطلب مهنة الترجمة قدرات، معرفة، مهارات وكفاءات مهنية قياسية. فالمترجم بشكــــل عام لابد من أن يتحلى
+                بالمعرفة الكافية
+                باللغات المترجم لها وإليها، قوة التركيز، مهارة التحليل، مهارة الكتابة وغيرهـــــــــا. على هذا الأساس
+                فالمترجم بأشد
+                الحاجة الى تدريب مكثف علمياً وعملياً لاكتساب القدرة، المعرفة، المهارة والكفاءة اللازمة. يهدف المشروع إلى
+                دعم المسار
+                المهني للمترجمين السعوديين وتنمية قدرات ورفع كفاءة المترجم السعودي في السوق المحلي من خلال برنامج مكثف
+                يتضمن تدريبهم
+                علمياً وعملياً وحضورهـــــــــــم ورش عمل أو مؤتمرات حسب ما يتناسب مع البرنــــــــــــــــــامج
+                التدريبي للمشاركة
+                بهـــــــــــــــا لغرض التدريب لتأهيلهم لبناء مسار مهني فعال في إحدى مجالات الترجمــــــــــــــــة.
+                ويتنوع
+                بـــــــــرامج التدريب المكثف في شتى مجالات الترجمة الفورية والتحريرية ويتم تحديد مجال معين في كل دورة،
+                حيث كان
+                مجـــــــــــــــــال (الترجمة الفورية في المؤتمرات) هو المجال المحدد في دورته الأولى.
+            </p>
+
+            <h2 class="sec-title" style="color: #E1912E;">
+                اهداف المبــادرة
+            </h2>
+
+            <div class="goals-box">
+                <div class="goal">
+                    <div class="num">01</div>
+                    <p>
+                        التعلم من الخبراء: التدريب المحلّي المكثف تحت إشراف خبراء في مجـــــــــــــال
+                        الترجمــــــــــــة
+                        الفــــــــــــــورية.
+                    </p>
+
+                </div>
+                <div class="goal">
+                    <div class="num">02</div>
+                    <p>
+                        التدريب الدولي: تجربة عملية في بيئة دولية تعزز مـن تطورهم الفردي والمهني.
+                    </p>
+                </div>
+            </div>
+            <div class="goals-box">
+                <div class="goal" style="flex-grow: 1;">
+                    <div class="num">03</div>
+                    <p>
+                        الدعم المستمر: تدعم الهيئة بتكثيف فرص المشاركة في المؤتمرات المحلية وتوسيع الشبكة المهنية.
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="vid-con">
+                <video src="trainning-vid1.mp4" controls></video>
+            </div>
+            <img src="trainning1-img.png" class="mid-img">
+
+
         </div>
     </section>
 
@@ -434,6 +495,10 @@
         $(".marsad-btn").click(function () {
             $("section").slideUp(800);
             $(".marsad").slideDown(800);
+        })
+        $(".trainning1-btn").click(function () {
+            $("section").slideUp(800);
+            $(".trainning1").slideDown(800);
         })
 
         // ##########

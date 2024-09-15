@@ -492,6 +492,24 @@ section {
     margin-right: auto;
 }
 
+.trainning1{
+    background: #780A47;
+}
+
+.trainning1 .son{
+    padding-bottom: 0%;
+}
+
+.trainning1 .back-btn{
+    background: #E1912E;
+}
+
+.trainning1 .mid-img{
+    margin-left: 0% !important;
+    margin-right: auto;
+
+}
+
 @media (min-width:0px) and (max-width:600px) {
     .details-page .son p {
         width: 90%;
