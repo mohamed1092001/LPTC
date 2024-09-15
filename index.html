@@ -74,7 +74,7 @@
                 <button class="quality-btn">
                     <img src="quality.svg" alt="">
                 </button>
-                <button class="motargem-btn">
+                <button class="ershaad-btn">
                     <img src="ershaad.svg" alt="">
                 </button>
                 <button class="motargem-btn">
@@ -500,7 +500,7 @@
             <div class="vid-con">
                 <video src="quality.mp4" controls></video>
             </div>
-            
+
             <div class="qr-box">
                 <p>
                     امسح الباركود وأعرف
@@ -511,6 +511,33 @@
             </div>
 
 
+        </div>
+    </section>
+
+    <!-- ershaad -->
+    <section class="ershaad details-page">
+        <button class="back-f-details back-btn"><i class="fa-solid fa-arrow-left"></i></button>
+        <div class="son">
+            <img src="ershaad.svg" class="sup-logo" style="aspect-ratio: auto;">
+            <p>
+                يهدف المشروع إلى دعــــــــم وتطــــــوير المترجمين السعوديين من خلال برنامج إرشــــــــــــادي مكثف يشمل 30 مترجمًا و30
+                عملًا ترجميًا. يستهدف المشــــــــــــــــــروع تعزيز مهــــــــــــــــــارات المترجمين في الترجمة من الإنجليزية
+                والفرنسية والصينية إلى العربية، ويشمل إشـــــرافًا فرديًا ومتابعة من مرشدين خبراء في الترجمـة.
+
+            </p>
+            <img src="mid-motargem-page.svg" class="mid-img">
+            <div class="vid-con">
+                <video src="ershaad.mp4" controls poster="motargem-poster.PNG"></video>
+            </div>
+
+            <div class="qr-box">
+                <p>
+                    امسح الباركود وأعرف
+                    <br>
+                    أكثـــــر عـــن المبــادرة
+                </p>
+                <img src="ershaad-qr.png" alt="">
+            </div>
         </div>
     </section>
 
@@ -558,6 +585,10 @@
         $(".quality-btn").click(function () {
             $("section").slideUp(800);
             $(".quality").slideDown(800);
+        })
+        $(".ershaad-btn").click(function () {
+            $("section").slideUp(800);
+            $(".ershaad").slideDown(800);
         })
 
         // ##########
