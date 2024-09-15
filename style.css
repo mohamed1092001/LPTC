@@ -479,7 +479,18 @@ section {
     padding-bottom: 0px !important;
 }
 
+.marsad{
+    background: #012938;
+}
 
+.marsad .back-btn{
+    background: #85B8B1;
+}
+
+.marsad .mid-img{
+    margin-left: 0px !important;
+    margin-right: auto;
+}
 
 @media (min-width:0px) and (max-width:600px) {
     .details-page .son p {
