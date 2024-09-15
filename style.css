@@ -475,6 +475,12 @@ section {
     width: 300px;
 }
 
+.korsy .son,.moltaka .son{
+    padding-bottom: 0px !important;
+}
+
+
+
 @media (min-width:0px) and (max-width:600px) {
     .details-page .son p {
         width: 90%;
@@ -496,3 +502,4 @@ section {
     top: 0%;
     left: 0%;
 }
+
