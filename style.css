@@ -370,6 +370,7 @@ section {
     background-color: #012938;
     color: #fff;
 }
+
 .ershaad .son {
     background-color: #85b8b1;
 }
@@ -483,66 +484,82 @@ section {
     width: 300px;
 }
 
-.korsy .son,.moltaka .son{
+.korsy .son,
+.moltaka .son {
     padding-bottom: 0px !important;
 }
 
-.marsad{
+.marsad {
     background: #012938;
 }
 
-.marsad .back-btn{
+.marsad .back-btn {
     background: #85B8B1;
 }
 
-.marsad .mid-img{
+.marsad .mid-img {
     margin-left: 0px !important;
     margin-right: auto;
 }
 
-.trainning1{
+.trainning1 {
     background: #780A47;
 }
 
-.trainning1 .son{
+.trainning1 .son {
     padding-bottom: 0%;
 }
 
-.trainning1 .back-btn{
+.trainning1 .back-btn {
     background: #E1912E;
 }
-.quality{
+
+.quality {
     background: #780A47;
 }
 
-.quality .son{
+.quality .son {
     padding-bottom: 0%;
 }
 
-.quality .back-btn{
+.quality .back-btn {
     background: #E1912E;
 }
 
-.trainning1 .mid-img{
+.trainning1 .mid-img {
     margin-left: 0% !important;
     margin-right: auto;
 
 }
 
 
-.trainning2{
+.trainning2 {
     background: #012938;
 }
 
 
 
-.trainning2 .back-btn{
+.trainning2 .back-btn {
     background: #85B8B1;
 }
 
-.trainning2 .mid-img{
+.trainning2 .mid-img {
     margin-left: 0% !important;
     margin-right: auto;
+}
+
+.quality2 {
+    background: #780A47;
+}
+
+.quality2 .back-btn {
+    background: #E1912E;
+}
+
+.quality2 .mid-img {
+    margin-left: 0% !important;
+    margin-right: auto;
+
 }
 
 @media (min-width:0px) and (max-width:600px) {
@@ -561,10 +578,10 @@ section {
 }
 
 
+
 /* test */
 section {
     position: fixed;
     top: 0%;
     left: 0%;
 }
-
